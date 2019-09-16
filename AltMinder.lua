@@ -476,12 +476,6 @@ AltMinder:AltM_Out("AltM_Upgraded:" .. AltM_SavedVars.AltM_Upgraded)
       AltMinder:AltM_UpgradeAltTable()
       AltMinder:AltM_UpgradeMainTable()
                         AltM_SavedVars.AltM_Upgraded = 3
--- Dumpdata to screen
-  elseif(argList[1] == "dumpdata")then
-    AltMinder:AltM_DumpData( argList[2] )
--- reset all alt/main data
-  elseif(argList[1] == "purgedata")then
-    AltMinder:AltM_PurgeData()
 -- checks current online guild members for their status
   elseif(argList[1] == ALTM_SLASH_GUILDCHK) or
 	(argList[1] == ALTM_SLASH_GUILDCHECK) or
