@@ -1,0 +1,17 @@
+## Interface: 11302
+## Title: AltMinder
+## Notes: AltMinder keeps data about mains and their alts and inserts a notation into messages when one is encountered
+## Author: Adam Potolsky
+## eMail: realspkr@gmail.com
+## URL: www.curse.com
+## Version: 0.1
+## Dependencies: 
+## OptionalDeps: 
+## DefaultState: Enabled
+## SavedVariables: AltM_SavedVars
+## X-Curse-Packaged-Version: r9
+## X-Curse-Project-Name: AltMinder
+## X-Curse-Project-ID: alt-minder
+## X-Curse-Repository-ID: wow/alt-minder/mainline
+AltMinder.lua
+AltMinder.xml

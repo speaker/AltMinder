@@ -1,0 +1,16 @@
+<Ui xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.blizzard.com/wow/ui/ C:ProjectsWoWBinInterfaceFrameXMLUI.xsd" xmlns="http://www.blizzard.com/wow/ui/">
+	<Script file="AltMinder.lua" />
+	<Script file="AltMLocalization.lua" />
+	<Script file="AltMLocalization.de.lua" />
+	<Script file="AltMLocalization.fr.lua" />
+	<Frame name="AltMinder_Frame" hidden="true" frameStrata="LOW">
+		<Scripts>
+			<OnLoad>
+				AltMinder:AltM_OnLoad(self);
+			</OnLoad>
+			<OnEvent>
+				AltMinder:AltM_OnEvent(self, event, ...)
+			</OnEvent>
+		</Scripts>
+	</Frame>
+</Ui>
