@@ -451,14 +451,6 @@ AltMinder:AltM_Out("AltMinder: Try /altm change main " .. argList[3] .. " <some-
       else
         AltMinder:AltM_ExtractGuildData(false)
       end
--- unsupported command for urbs -- kind of guild processing
-    elseif(argList[2] == "urbs") then
-      AltMinder:AltM_Out("What are you doing, Dave?")
-      if(argList[3] == ALTM_SLASH_VERBOSE) then
-        AltMinder:AltM_UrbsExtractGuildData(true)
-      else
-        AltMinder:AltM_UrbsExtractGuildData(false)
-      end
     else
       AltMinder:AltM_Out(ALTM_MSG_CMD .. " " .. ALTM_MSG_EXTRACT)
       AltMinder:AltM_Out("  " .. ALTM_MSG_EXTRACT_VRBOP)
