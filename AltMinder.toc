@@ -1,4 +1,4 @@
-## Interface: 11302
+## Interface: 11303
 ## Title: AltMinder
 ## Notes: AltMinder keeps data about mains and their alts and inserts a notation into messages when one is encountered
 ## Author: Adam Potolsky
